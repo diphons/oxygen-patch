@@ -1,3 +1,3 @@
 # oxygen-patch
 
-Add patch kernel to support port Oxygen Os
+Add patch kernel to support port rom Oxygen Os
