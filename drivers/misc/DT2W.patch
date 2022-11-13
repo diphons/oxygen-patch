@@ -1,4 +1,3 @@
-From c63501dea642789431487f266781e4e116dc2d00 Mon Sep 17 00:00:00 2001
 diff --git a/drivers/input/touchscreen/fts_521/fts.c b/drivers/input/touchscreen/fts_521/fts.c
 index bb173c32f0a9..e50c7b84b288 100644
 --- a/drivers/input/touchscreen/fts_521/fts.c
