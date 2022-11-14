@@ -22,7 +22,7 @@
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("diphons");
 MODULE_DESCRIPTION("oxygen os touch gesture");
-MODULE_VERSION("0.0.5");
+MODULE_VERSION("0.0.9");
 
 #define tpdir "touchpanel"
 
@@ -35,8 +35,6 @@ MODULE_VERSION("0.0.5");
 #ifdef CONFIG_ARCH_SDM845
 bool capacitive_keys_enabled;
 struct kobject *touchpanel_kobj;
-int cek_gesture = 0;
-module_param(cek_gesture, int, 0644);
 
 #define TS_ENABLE_FOPS(type)                                                   \
 	int tp_common_set_##type##_ops(struct tp_common_ops *ops)              \
